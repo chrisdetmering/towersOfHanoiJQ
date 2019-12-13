@@ -1,0 +1,79 @@
+h1 { 
+  text-align: center; 
+}
+
+.hanoi { 
+  text-align: center;
+}
+
+.tower { 
+  height: 100px;
+  width: 200px; 
+  border-bottom-width: 5px;
+  border-bottom-color: black; 
+  display: inline-block;
+  border-bottom-style: solid;
+  margin: 10px;
+}
+
+ul { 
+  text-align: center;
+  padding-left: 0px;
+  margin-left: auto; 
+  margin-right: auto; 
+  list-style-type: none; 
+}
+
+.disk1 { 
+  height: 10px;
+  width: 40px; 
+  border-style: groove; 
+  border-width: 2.5; 
+  border-color: black;
+  background-color: black; 
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top: 2.5px; 
+  margin-bottom: 2.5px; 
+}
+
+.disk2 { 
+  height: 10px;
+  width: 80px;
+  border-style: groove; 
+  border-width: 2.5; 
+  border-color: black; 
+  margin-left: auto; 
+  margin-right: auto;
+  background-color: black; 
+  margin-top: 2.5px; 
+  margin-bottom: 2.5px; 
+}
+
+.disk3 { 
+  height: 10px;
+  width: 120px;
+  border-style: groove; 
+  border-width: 2.5; 
+  border-color: black;
+  background-color: black; 
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top: 2.5px; 
+  margin-bottom: 2.5px; 
+}
+
+.selected { 
+  border-bottom-color:red; 
+  border-bottom-style: solid;
+}
+
+.hover { 
+  border-bottom-color: blue; 
+  border-bottom-style: solid;
+}
+
+.gameOver { 
+  border-color:green;
+  background-color: green; 
+}
